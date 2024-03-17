@@ -22,16 +22,17 @@
         <main>
             <form>
                 <label for="nombreApellido">Nombre y Apellido</label>
-                <input type="text" id="nombreApellido" class="input-padron">
+                <input type="text" id="nombreApellido" class="input-padron" required>
 
                 <label for="correo">Correo electrónico</label>
-                <input type="text" id="correo" class="input-padron">
+                <input type="email" id="correo" class="input-padron" required placeholder="email@dominio.com">
+            
 
                 <label for="telefono">Teléfono</label>
-                <input type="text" id="telefono" class="input-padron">
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXX XXX XXXX">
 
                 <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
+                <textarea id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
 
                 <div>
 
@@ -41,7 +42,7 @@
     
                     <label for="radio-telefono"><input name="contacto" type="radio" value="Telefono" id="radio-telefono">Telefono</label>
     
-                    <label for="radio-whatsapp"><input name="contacto" type="radio" value="Whatsapp" id="radio-whatsapp">Whatsapp</label>
+                    <label for="radio-whatsapp"><input name="contacto" type="radio" value="Whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
                 </div>
 
                 <div>
@@ -53,8 +54,7 @@
                     </select>
                 </div>
 
-
-                <label class="checkbox"><input type="checkbox">¿Le gustaría recibir novedades de la barbería Alura?</label>
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la barbería Alura?</label>
 
                 <input type="submit" value="Enviar formulario">
             </form>
