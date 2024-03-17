@@ -9,7 +9,7 @@
     <body>
         <header>
             <div class="caja">
-                <h1><img src="img/logo/logo.png" alt=""></h1>
+                <h1><img src="img/logo/logo.png" alt="Logo de la Barbería Alura"></h1>
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -34,7 +34,7 @@
                 <label for="mensaje">Mensaje</label>
                 <textarea id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
 
-                <div>
+                <fieldset>
 
                     <p class="test" id="test">¿Cómo te gustaría ser contactado?</p>
     
@@ -43,24 +43,24 @@
                     <label for="radio-telefono"><input name="contacto" type="radio" value="Telefono" id="radio-telefono">Telefono</label>
     
                     <label for="radio-whatsapp"><input name="contacto" type="radio" value="Whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
-                </div>
+                </fieldset>
 
-                <div>
-                    <p>En cuál horario preferes ser atendido</p>
+                <fieldset>
+                    <legend>En cuál horario preferes ser atendido</legend>
                     <select>
                         <option>Mañana</option>
                         <option>Tarde</option>
                         <option>Noche</option>
                     </select>
-                </div>
+                </fieldset>
 
                 <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la barbería Alura?</label>
 
-                <input type="submit" value="Enviar formulario">
+                <input type="submit" value="Enviar formulario" class="enviar">
             </form>
         </main>
         <footer>
-            <img src="img/logo/logo-blanco.png">
+            <img src="img/logo/logo-blanco.png" alt="Logo de la barbería Alura">
             <p class="copyright">&copy Copyright Barbería Alura 2024</p>
         </footer>
     </body>
