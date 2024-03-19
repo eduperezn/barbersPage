@@ -206,9 +206,24 @@ td, th{
     text-align: center;
 }
 
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
 .imagenDiferenciales{
     width: 60%;
+    display: inline-block;
+}
 
+.items{
+    line-height: 1.5;
+}
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .video{
